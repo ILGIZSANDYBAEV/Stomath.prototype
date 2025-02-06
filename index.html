@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ысык-Кол стоматология</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="phon">
+    <img class="backround-image" src="/backround image.webp" alt="">
+</div>
+<div class="grid-container">
+    <header>
+         <div class="num">  
+            <div class="icon">
+                <a class="instagram" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a class="whatsapp" href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a class="vk" href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+               
+            </div>
+            
+          <div class="contact-glava">
+            <div class="contacts">
+                <a href="tel:+996500993976" class="call"></a>
+                <a class="phone" href=""><i class="fa fa-phone" aria-hidden="true"></i> </a>
+                <p class="number">+996 (500) 993-976</p>
+               
+            </div>
+            <div class="contacts2">
+               
+                <p class="number">+996 (500) 993-976</p>
+            </div>
+            <div class="contacts3">
+                
+                <p class="number">+996 (500) 993-976</p>
+                 <a class="time" href=""><i class="fa fa-clock-o" aria-hidden="true"></i></a>
+                 <p class="time2">с 09:00 до 18:00</p>
+            </div>
+          </div>
+         </div>
+        <div class="logo">
+            <img class="logotip" src="./Ысык-Кол стоматология логотип с ИК в центре.png" alt="">
+            <h1 class="name">Ыссык-Көл стоматологическая клиника  </h1>
+            <h4 class="name"></h4>
+            <div class="head">
+                <li><a href="#services">Наши услуги</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </div>
+        </div> 
+    </header>
+  <div class="containerr"> 
+    <section id="home" class="home">
+        <h2 class="welcome">Добро пожаловать в нашу клинику!</h2>
+        <p class="welcome">Мы предлагаем широкий спектр стоматологических услуг для всей семьи.</p>
+    </section> 
+    <section class="services">
+        <h2>Наши услуги</h2>
+        <div class="service-list">
+            <div class="service-item">
+                <h3>Терапевтическая стоматология</h3>
+                <p>Лечение кариеса, пульпита и других заболеваний зубов и десен.</p>
+            </div>
+            <div class="service-item">
+                <h3>Ортопедическая стоматология</h3>
+                <p>Протезирование зубов, установка коронок и мостов.</p>
+            </div>
+            <div class="service-item">
+                <h3>Ортодонтия</h3>
+                <p>Исправление прикуса и выравнивание зубов с помощью брекетов и кап.</p>
+            </div>
+            <div class="service-item">
+                <h3>Хирургическая стоматология</h3>
+                <p>Удаление зубов, имплантация и другие хирургические вмешательства.</p>
+            </div>
+            <div class="service-item">
+                <h3>Пародонтология</h3>
+                <p>Лечение заболеваний десен и тканей, окружающих зуб.</p>
+            </div>
+            <div class="service-item">
+                <h3>Детская стоматология</h3>
+                <p>Лечение и профилактика стоматологических заболеваний у детей.</p>
+            </div>
+        </div>
+    </section>
+   </div> 
+   <section id="gallery" class="gallery">
+    <h2>Галерея до и после</h2>
+    <div class="gallery-list">
+        <div class="gallery-item">
+            <img class="teeth" src="/do.posle.jpg" alt="">
+           
+        </div>
+        <div class="gallery-item">
+            <img class="teeth" src="/do.poslee.png" alt="">
+      
+        </div>
+        <div class="gallery-item">
+            <img class="teeth" src="/do.posle.do.jpg" alt="">
+           
+        </div>
+    
+    </div>
+</section>
+    <footer>
+        <h1>Форма онлайн записи</h1>
+        <form id="appointment-form">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Дата:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Время:</label>
+            <input type="time" id="time" name="time" required>
+
+            <input type="submit" value="Записаться">
+        </form>
+        <div id="success-message" class="hidden">
+            <p>Спасибо за вашу запись!</p>
+
+    </footer>
+    <div class="container">
+        <h1>Отзывы пациентов</h1>
+        <div id="reviews">
+            
+        </div>
+        <h2>Добавить отзыв</h2>
+        <form id="review-form">
+            <div class="form-group">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="review">Отзыв:</label>
+                <textarea id="review" name="review" rows="4" required></textarea>
+            </div>
+            <button type="submit">Отправить отзыв</button>
+        </form>
+        <section id="contact" class="contact">
+            <h2>Контакты</h2>
+            <p><strong>Адрес:</strong> ул. Примерная, 123, г. Бишкек, Кыргызстан</p>
+            <p><strong>Телефон:</strong> +996 (312) 123-456</p>
+            <p><strong>Email:</strong> info@issyk-kol-dental.kg</p>
+            <h2>Время работы</h2>
+            <p><strong>Понедельник - Пятница:</strong> 09:00 - 18:00</p>
+            <p><strong>Суббота:</strong> 10:00 - 16:00</p>
+            <p><strong>Воскресенье:</strong> Выходной</p>
+        </section>
+    </div>
+    <p>&copy; 2025 Ыссык-Көл стоматологическая клиника. Все права защищены.</p>
+</div>  
+
+
+</body>
+</html>
